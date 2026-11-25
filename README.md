@@ -27,7 +27,7 @@ Every test has a decision rule that was written into the script, with its date, 
 | `p3_latent_gen.py` | Base DiT (`train` to 50k), latents, sampling, FID/KID helpers |
 | `p3_h_check.py` | Complexity strata (absolute high-frequency energy) used for S5 and LowE45 |
 | `paper2_train.py`, `paper2_decoder_gan.py`, `nested_vae_spectral.py` | The frozen autoencoder (model D) and the data loaders, from the companion autoencoder paper |
-|'spectral_rd_vae_test.py' |helper functions used by nested_vae_spectral.py.
+| `spectral_rd_vae_test.py` | Helper functions used by `nested_vae_spectral.py` |
 ## Requirements
 
 Python 3.12, PyTorch with CUDA (all results were obtained on one 8 GB NVIDIA Quadro RTX 4000), and:
